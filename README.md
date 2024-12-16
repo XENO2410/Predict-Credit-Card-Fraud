@@ -1,7 +1,7 @@
 # Predict Credit Card Fraud
 
 ## Overview
-Credit card fraud is one of the leading causes of identity theft around the world. In 2018 alone, over $24 billion were stolen through fraudulent credit card transactions. Financial institutions employ a wide variety of different techniques to prevent fraud, one of the most common being Logistic Regression.
+Credit card fraud is one of the leading causes of identity theft around the world. In 2018 alone, over $24 billion were stolen through fraudulent credit card transactions. Financial institutions employ various techniques to prevent fraud, one of the most common being Logistic Regression.
 
 In this project, you are a Data Scientist working for a credit card company. You have access to a dataset (based on a synthetic financial dataset) that represents a typical set of credit card transactions. `transactions.csv` is the original dataset containing 200k transactions
 
