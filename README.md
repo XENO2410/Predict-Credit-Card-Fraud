@@ -11,7 +11,7 @@ In this project, you are a Data Scientist working for a credit card company. You
 ### Clean the Data
 2. Calculate summary statistics for the `amount` column. What does the distribution look like?
 3. Create a new column called `isPayment` that assigns a 1 when `type` is “PAYMENT” or “DEBIT”, and a 0 otherwise.
-4. Create a column called `isMovement` to capture whether money moved out of the origin account. This column will have a value of 1 when `type` is either “CASH_OUT” or “TRANSFER” and a value of 0 otherwise.
+4. Create a column called `isMovement` to capture whether money moved from the origin account. This column will have a value of 1 when `type` is either “CASH_OUT” or “TRANSFER” and a value of 0 otherwise.
 5. Create a column called `accountDiff` with the absolute difference of the `oldbalanceOrg` and `oldbalanceDest` columns.
 
 ### Select and Split the Data
