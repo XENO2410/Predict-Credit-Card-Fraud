@@ -28,7 +28,7 @@ In this project, you are a Data Scientist working for a credit card company. You
 12. Print the coefficients for the model to see how important each feature was for prediction. Which feature was most important? Least important?
 
 ### Predict With the Model
-13. Use the model to process new transactions. Three numpy arrays (`transaction1`, `transaction2`, `transaction3`) with information on new sample transactions are pre-loaded in the workspace. Create a fourth array, `your_transaction`, with your own values.
+13. Use the model to process new transactions. Three numpy arrays (`transaction1`, `transaction2`, `transaction3`) with information on new sample transactions are pre-loaded in the workspace. Create a fourth array, `your_transaction`, with your values.
 14. Combine the new transactions and `your_transaction` into a single numpy array called `sample_transactions`.
 15. Scale `sample_transactions` using the `StandardScaler`.
 16. Use the model's `predict()` method on `sample_transactions` to determine which transactions are fraudulent. Print the results.
