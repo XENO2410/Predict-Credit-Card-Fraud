@@ -3,7 +3,7 @@
 ## Overview
 Credit card fraud is one of the leading causes of identity theft worldwide. In 2018 alone, over $24 billion was stolen through fraudulent credit card transactions. Financial institutions employ various techniques to prevent fraud, one of the most common being Logistic Regression.
 
-In this project, you are a Data Scientist working for a credit card company. You have access to a dataset (based on a synthetic financial dataset) that represents a typical set of credit card transactions. `transactions.csv` is the original dataset containing 200k transactions
+In this project, you are a Data Scientist working for a credit card company. You have access to a dataset (based on a synthetic financial dataset) that represents a typical set of credit card transactions. `transactions.csv` is the original dataset containing 200k transactions.
 
 ### Load the Data
 1. The file `transactions.csv` contains data on 1000 simulated credit card transactions. Begin by loading the data into a pandas DataFrame named `transactions`. Take a peek at the dataset using `.head()` and use `.info()` to examine how many rows there are and what datatypes they are. How many transactions are fraudulent? Print your answer.
